@@ -8,7 +8,7 @@ proxies:
   sni: do-gayeng.potatonc.my.id
   skip-cert-verify: true
   network: ws
-  grpc-opts:
+  ws-opts:
     path: /trojan
     headers:
       Host: do-gayeng.potatonc.my.id
