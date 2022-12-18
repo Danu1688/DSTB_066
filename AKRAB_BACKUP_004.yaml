@@ -1,5 +1,5 @@
 proxies:
-- name: danuGrpc04
+- name: danu04
   type: trojan
   server: sg-cth.sshpremium.my.id
   port: 443
