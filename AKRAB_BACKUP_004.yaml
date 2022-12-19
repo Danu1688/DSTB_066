@@ -1,15 +1,17 @@
 proxies:
-- name: danu04
+- name: danuWs04
   type: trojan
-  server: sg-cth.sshpremium.my.id
+  server: 172.67.199.34
   port: 443
-  password: 2d0c0e9e-1bc7-473c-8943-3408cfb0f8cb
+  password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
-  sni: teams.live.com
+  sni: id-magna.sshpremium.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan-grpc
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-magna.sshpremium.my.id
 - name: danugayeng04a
   type: trojan
   server: 172.67.199.34
