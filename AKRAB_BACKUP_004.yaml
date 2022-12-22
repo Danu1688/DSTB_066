@@ -47,16 +47,25 @@ proxies:
     path: /trojan
     headers:
       Host: do-gayeng.potatonc.my.id
-- name: danuterong04b
+- name: danu04
   type: trojan
-  server: 172.67.199.34
+  server: sg-cth.sshpremium.my.id
   port: 443
-  password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
+  password: 2d0c0e9e-1bc7-473c-8943-3408cfb0f8cb
   udp: true
-  sni: b19f.vpsxc.my.id
+  sni: teams.live.com
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /terong
-    headers:
-      Host: b19f.vpsxc.my.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan-grpc
+- name: danu05
+  type: trojan
+  server: sg-do2.sshpremium.my.id
+  port: 443
+  password: c1b0678d-6439-4893-a186-456e338c6fae
+  udp: true
+  sni: teams.live.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan-grpc
