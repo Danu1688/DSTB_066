@@ -12,7 +12,20 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-magna.sshpremium.my.id
-- name: danuWs04-SNI
+- name: danuWs04-SNIa
+  type: trojan
+  server: id-magna.sshpremium.my.id
+  port: 443
+  password: bce17684-d142-4760-8932-88bd7ff7ec14
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
+- name: danuWs04-SNIb
   type: trojan
   server: id-magna.sshpremium.my.id
   port: 443
