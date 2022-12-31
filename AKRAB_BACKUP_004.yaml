@@ -51,19 +51,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-magna.sshpremium.my.id
-- name: danuWs04-Midtrans
-  type: trojan
-  server: midtrans.com
-  port: 443
-  password: bce17684-d142-4760-8932-88bd7ff7ec14
-  udp: true
-  sni: id-magna.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: id-magna.sshpremium.my.id
 - name: danuWs04
   type: trojan
   server: 172.67.199.34
