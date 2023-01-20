@@ -79,9 +79,9 @@ proxies:
       Host: teams.live.com
 - name: danuWs05-SNI-TeamsLive
   type: trojan
-  server: sg-cth.sshpremium.my.id
+  server: sg-ctn.sshpremium.my.id
   port: 443
-  password: efb0de51-8b59-4c6b-854d-b5c8c29830ac
+  password: 5ca60014-86b6-4314-a650-4d9cebfaf3b0
   udp: true
   sni: teams.live.com
   skip-cert-verify: true
