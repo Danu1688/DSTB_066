@@ -38,11 +38,11 @@ proxies:
     path: "/trojanws"
     headers:
       Host: teams.live.com
-- name: danuWs02-SNI-TeamsLive
+- name: danuWs02=>danu04-SNI-TeamsLive
   type: trojan
-  server: sg-do.sshpremium.my.id
+  server: sg-cth.sshpremium.my.id
   port: 443
-  password: 9bc9072e-61a7-439d-b67a-70fcd84e9a0b
+  password: 3605cc31-054b-4c71-9b1f-57fe23b48ce3
   udp: true
   sni: teams.live.com
   skip-cert-verify: true
@@ -66,9 +66,9 @@ proxies:
       Host: teams.live.com
 - name: danuWs04-SNI-TeamsLive
   type: trojan
-  server: sg-ctn.sshpremium.my.id
+  server: sg-cth.sshpremium.my.id
   port: 443
-  password: 5b436895-4f26-40a0-b119-9a0f8926ed42
+  password: 3605cc31-054b-4c71-9b1f-57fe23b48ce3
   udp: true
   sni: teams.live.com
   skip-cert-verify: true
